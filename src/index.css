@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.counter {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 1em;
+}
+
+.counter button {
+  width: 200px;
+  height: 40px;
+  background: none;
+  outline: none;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+  border-radius: 40px;
+  margin: 0.5em 0;
+}
+
+.counter button:active {
+  background: #fff;
+  color: #000;
+  border: 0.1em solid #000;
+}
+
+.counter h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.counter p {
+  font-size: 40px;
+  padding: 1em;
+}
+
+.win p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+}
+
+.congrats {
+  padding: 1em 0;
+}
+
+.congrats b {
+  font-size: 20px;
+}
+
+.congrats i {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.coder a {
+  width: 120px;
+  height: 30px;
+  background: #00b800;
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.win-counter {
+  color: orangered;
+}
+/*# sourceMappingURL=index.css.map */

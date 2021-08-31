@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+$color: #fff;
+$background: #000;
+$mon:salmon;
+$congrats: #03494e;
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.counter{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 1em;
+}
+.counter button{
+  width: 200px;
+  height: 40px;
+  background: none;
+  outline: none;
+  font-size: 16px;
+  border: none;
+  color: $color;
+  background: $background;
+  cursor: pointer;
+  border-radius: 40px;
+  margin: 0.5em 0;
+  &:active{
+    background: $color;
+    color: $background;
+    border: 0.1em solid $background;
+  }
+}
+.counter h1{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.counter p{
+  font-size: 40px;
+  padding: 1em;
+}
+.win p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+}
+.congrats{
+  padding: 1em 0;
+}
+.congrats b{
+  font-size: 20px;
+}
+.congrats i{
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.coder a{
+  width:120px;
+  height: 30px;
+  background: rgb(0, 184, 0);
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.win-counter{
+  color: orangered;
+}
